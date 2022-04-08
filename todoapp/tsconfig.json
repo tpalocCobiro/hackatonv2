@@ -24,6 +24,10 @@
       "shared": [
         "dist/shared/shared",
         "dist/shared"
+      ],
+      "todo": [
+        "dist/todo/todo",
+        "dist/todo"
       ]
     },
     "target": "es2017",
