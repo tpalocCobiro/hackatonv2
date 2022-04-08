@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {CurrentDateComponentModule} from "../../projects/shared/src/lib/current-date/current-date-component.module";
 import {PagesModule} from "../../projects/pages/src/lib/pages.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {ApplicationBusModule} from "@cobiro/eda";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PagesModule,
     CurrentDateComponentModule,
     BrowserAnimationsModule,
+    ApplicationBusModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
