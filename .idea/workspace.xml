@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="">
+    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="Added shared lib">
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero/current-date-component.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/shared/src/public-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +44,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/todoapp/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,8 +65,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649331584849</updated>
-      <workItem from="1649331586610" duration="7567000" />
+      <workItem from="1649331586610" duration="9204000" />
     </task>
+    <task id="LOCAL-00001" summary="Added shared lib">
+      <created>1649407661605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649407661605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added shared lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added shared lib" />
   </component>
 </project>
