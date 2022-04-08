@@ -10,6 +10,7 @@ import {
 import {
   RedirectToAddingTaskServiceModule
 } from "./application/services/redirect-to-adding-task/redirect-to-adding-task-service.module";
+import {TasksListPageComponentModule} from "./adapters/primary/ui/task-list/tasks-list-page-component.module";
 
 @NgModule({
   declarations: [
@@ -23,9 +24,10 @@ import {
       },
     ]),
     HomepageComponentModule,
-    AddTaskPageComponentModule,
     RedirectToAddingTaskServiceModule,
     RouterRedirectToAddingTaskServiceModule,
+    AddTaskPageComponentModule,
+    TasksListPageComponentModule,
   ],
   exports: [
 
