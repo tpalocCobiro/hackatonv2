@@ -2,7 +2,7 @@ import {Injectable} from "@angular/core";
 import {
   RedirectsToAddingTaskDto,
   RedirectsToAddingTaskDtoPort
-} from "../../../../application/ports/secondary/redirects-to-adding-task-dto.port";
+} from "../../../../application/ports/secondary/redirects-to-adding-task.dto-port";
 import { Router } from '@angular/router';
 
 @Injectable()

@@ -6,7 +6,7 @@ import {Inject, Injectable} from "@angular/core";
 import {
   REDIRECTS_TO_ADDING_TASK_DTO_PORT,
   RedirectsToAddingTaskDtoPort
-} from "../../ports/secondary/redirects-to-adding-task-dto.port";
+} from "../../ports/secondary/redirects-to-adding-task.dto-port";
 
 @Injectable()
 export class RedirectToAddingTaskService implements RedirectToAddingTaskCommandPort {
