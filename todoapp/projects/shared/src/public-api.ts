@@ -1,4 +1,4 @@
 /*
  * Public API Surface of shared
  */
-export * from './lib/hero/current-date-component.module';
+export * from './lib/current-date/current-date-component.module';

@@ -1,0 +1,7 @@
+<textarea
+  [formControl]="taskDescription"
+></textarea>
+<button mat-raised-button color="primary"
+        (click)="onAdd()"
+        [disabled]="!taskDescription.valid"
+>Add task</button>

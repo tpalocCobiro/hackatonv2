@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {CurrentDateComponentModule} from "../../projects/shared/src/lib/current-date/current-date-component.module";
+import {CurrentDateComponentModule} from "../../projects/shared/src/public-api";
 import {PagesModule} from "../../projects/pages/src/lib/pages.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ApplicationBusModule} from "@cobiro/eda";

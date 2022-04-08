@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="removed boilerplate">
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form-component.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form.component.ts" afterDir="false" />
+    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="added empty add-task-form.component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/todo/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/public-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/add-task/add-task-page-component.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/add-task/add-task-page-component.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/add-task/add-task-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/add-task/add-task-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form-component.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form-component.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form/add-task-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/todo/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/todo/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +41,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/todoapp/projects/todo/src/lib/adapters/primary/ui/add-task-form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/todoapp/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -54,6 +55,7 @@
       <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todoapp/projects/todo/src/lib" />
       <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/services" />
       <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/ports/primary" />
       <recent name="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero" />
@@ -67,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649331584849</updated>
-      <workItem from="1649331586610" duration="17120000" />
+      <workItem from="1649331586610" duration="18390000" />
+      <workItem from="1649418390389" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Added shared lib">
       <created>1649407661605</created>
@@ -167,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649416972541</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added empty add-task-form.component">
+      <created>1649417129197</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1649417129197</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +209,7 @@
     <MESSAGE value="fixed redirecting to add task" />
     <MESSAGE value="fixed naming" />
     <MESSAGE value="removed boilerplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed boilerplate" />
+    <MESSAGE value="added empty add-task-form.component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added empty add-task-form.component" />
   </component>
 </project>
