@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {CurrentDateComponentModule} from "../../projects/shared/src/lib/hero/current-date-component.module";
+import {CurrentDateComponentModule} from "../../projects/shared/src/lib/current-date/current-date-component.module";
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import {CurrentDateComponentModule} from "../../projects/shared/src/lib/hero/cur
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CurrentDateComponentModule
+    CurrentDateComponentModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="Added shared lib">
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero/current-date-component.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/lib/shared.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/shared/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/shared/src/public-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.component.html" afterDir="false" />
+    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="added new pages lib">
       <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649331584849</updated>
-      <workItem from="1649331586610" duration="9204000" />
+      <workItem from="1649331586610" duration="9420000" />
     </task>
     <task id="LOCAL-00001" summary="Added shared lib">
       <created>1649407661605</created>
@@ -74,7 +65,28 @@
       <option name="project" value="LOCAL" />
       <updated>1649407661605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Today date">
+      <created>1649409283450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649409283450</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rename to current-date">
+      <created>1649409358659</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649409358659</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new pages lib">
+      <created>1649409375138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649409375138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +105,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added shared lib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added shared lib" />
+    <MESSAGE value="Added Today date" />
+    <MESSAGE value="Rename to current-date" />
+    <MESSAGE value="added new pages lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new pages lib" />
   </component>
 </project>
