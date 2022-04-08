@@ -5,9 +5,11 @@ import {HomepageComponentModule} from "./adapters/primary/ui/homepage/homepage-c
 import {HomepageComponent} from "./adapters/primary/ui/homepage/homepage.component";
 import {AddTaskPageComponentModule} from "./adapters/primary/ui/add-task/add-task-page-component.module";
 import {
+  RouterRedirectToAddingTaskServiceModule
+} from "./adapters/secondary/infrastructure/router-redirects-to-adding-task/router-redirect-to-adding-task-service.module";
+import {
   RedirectToAddingTaskServiceModule
 } from "./application/services/redirect-to-adding-task/redirect-to-adding-task-service.module";
-import {EventHandlersModule} from "./adapters/secondary/event-handlers/event-handlers.module";
 
 @NgModule({
   declarations: [
@@ -20,10 +22,10 @@ import {EventHandlersModule} from "./adapters/secondary/event-handlers/event-han
         component: HomepageComponent,
       },
     ]),
-    EventHandlersModule,
     HomepageComponentModule,
     AddTaskPageComponentModule,
     RedirectToAddingTaskServiceModule,
+    RouterRedirectToAddingTaskServiceModule,
   ],
   exports: [
 
