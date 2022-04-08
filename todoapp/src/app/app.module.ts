@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CurrentDateComponentModule} from "../../projects/shared/src/lib/current-date/current-date-component.module";
 import {PagesModule} from "../../projects/pages/src/lib/pages.module";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import {PagesModule} from "../../projects/pages/src/lib/pages.module";
     AppRoutingModule,
     PagesModule,
     CurrentDateComponentModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
