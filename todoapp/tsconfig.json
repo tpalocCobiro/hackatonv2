@@ -17,6 +17,10 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
+      "pages": [
+        "dist/pages/pages",
+        "dist/pages"
+      ],
       "shared": [
         "dist/shared/shared",
         "dist/shared"
