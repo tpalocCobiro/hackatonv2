@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage-component.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.ts" afterDir="false" />
+    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="added homepage page">
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/add-task/add-task-page-component.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/add-task/add-task-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/add-task/add-task-page.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/public-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +40,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/todoapp/projects/pages/src/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/todoapp/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui" />
       <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib" />
       <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage" />
       <recent name="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero" />
@@ -70,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649331584849</updated>
-      <workItem from="1649331586610" duration="10710000" />
+      <workItem from="1649331586610" duration="11422000" />
     </task>
     <task id="LOCAL-00001" summary="Added shared lib">
       <created>1649407661605</created>
@@ -107,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649409415340</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added homepage page">
+      <created>1649410744176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649410744176</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +131,7 @@
     <MESSAGE value="Rename to current-date" />
     <MESSAGE value="added new pages lib" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="added homepage page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homepage page" />
   </component>
 </project>
