@@ -11,8 +11,8 @@ import {
   templateUrl: './tasks-list.component.html',
 })
 export class TasksListComponent {
-
   tasksList$ = this._getsTasksListQueryPort.getTasksListQuery();
+  showForm = false;
 
   constructor(@Inject(GETS_TASKS_LIST_QUERY_PORT) private _getsTasksListQueryPort: GetsTasksListQueryPort) {
   }

@@ -4,6 +4,9 @@
   </li>
 </ul>
 
+<button mat-raised-button color="primary"
+        (click)="showForm = !showForm"
+        *ngIf="!showForm"
+>Add task</button>
 
-
-<app-add-task-form></app-add-task-form>
+<app-add-task-form *ngIf="showForm"></app-add-task-form>
