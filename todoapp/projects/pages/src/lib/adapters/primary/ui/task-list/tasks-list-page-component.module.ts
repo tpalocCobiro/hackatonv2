@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import {TasksListPageComponent} from "./tasks-list-page.component";
 import {CommonModule} from "@angular/common";
 import {RouterModule} from "@angular/router";
-import {TaskStateModule, HttpAddsTaskServiceModule} from './../../../../../../../todo/src/public-api';
+import {TaskStateModule, HttpAddsTaskServiceModule, TasksListComponentModule } from './../../../../../../../todo/src/public-api';
 
 
 @NgModule({
@@ -13,6 +13,7 @@ import {TaskStateModule, HttpAddsTaskServiceModule} from './../../../../../../..
     CommonModule,
     TaskStateModule,
     HttpAddsTaskServiceModule,
+    TasksListComponentModule,
     RouterModule.forChild([
       {
         path: 'tasks-list',
