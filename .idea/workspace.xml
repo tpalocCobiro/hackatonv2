@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="added material">
-      <change beforePath="$PROJECT_DIR$/todoapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/src/app/app.module.ts" afterDir="false" />
+    <list default="true" id="01396b74-b3b4-4da5-bc2a-d7574e13348b" name="Changes" comment="added EDA">
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/secondary/event-handlers/event-handlers.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/secondary/event-handlers/redirect-to-adding-task/redirect-to-adding-task.event-handler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/events/add-task-started.event.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/ports/primary/redirect-to-adding-task.command-port.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/services/redirect-to-adding-task/redirect-to-adding-task-service.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/services/redirect-to-adding-task/redirect-to-adding-task.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/adapters/primary/ui/homepage/homepage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/lib/pages.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todoapp/projects/pages/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/todoapp/projects/pages/src/public-api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +58,8 @@
       <recent name="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/services" />
+      <recent name="$PROJECT_DIR$/todoapp/projects/pages/src/lib/application/ports/primary" />
       <recent name="$PROJECT_DIR$/todoapp/projects/shared/src/lib/hero" />
     </key>
   </component>
@@ -61,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649331584849</updated>
-      <workItem from="1649331586610" duration="11868000" />
+      <workItem from="1649331586610" duration="14905000" />
     </task>
     <task id="LOCAL-00001" summary="Added shared lib">
       <created>1649407661605</created>
@@ -119,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649411697555</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added EDA">
+      <created>1649411885408</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649411885408</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +162,7 @@
     <MESSAGE value="added homepage page" />
     <MESSAGE value="added add task page" />
     <MESSAGE value="added material" />
-    <option name="LAST_COMMIT_MESSAGE" value="added material" />
+    <MESSAGE value="added EDA" />
+    <option name="LAST_COMMIT_MESSAGE" value="added EDA" />
   </component>
 </project>
